@@ -15,7 +15,7 @@ public class ConectaMySQL {
 			System.out.println("Conectou");
 			conexao.close();
 		}catch(SQLException erro) {
-			System.out.println("Erro ao criar conexão, Erro: "+erro.getMessage());
+			System.out.println("Erro ao criar conexão. Erro: "+erro.getMessage());
 		}
 	}
 }
